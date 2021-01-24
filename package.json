@@ -4,7 +4,8 @@
   "description": "Este es un cascaron de un proyecto de webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Dcterrance88/JS_webpack_y_modulos/issues"
   },
-  "homepage": "https://github.com/Dcterrance88/JS_webpack_y_modulos#readme"
+  "homepage": "https://github.com/Dcterrance88/JS_webpack_y_modulos#readme",
+  "devDependencies": {
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  }
 }
