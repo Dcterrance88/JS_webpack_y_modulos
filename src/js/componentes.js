@@ -1,7 +1,7 @@
 import '../css/componentes.css';
 
 export const saludar = (nombre) => {
-    console.log('Creando etiqueta h1 en el html');
+    console.log('Creando etiqueta h1 en el html sisas');
 
     const h1 = document.createElement('h1');
     h1.innerText = `Hola, ${nombre}`;
