@@ -1,4 +1,7 @@
 /* Este es el estilo del Main */
 html, body{
-    background-color: black;
+    background-color: gray;
+}
+img{
+    width: 30%;
 }
